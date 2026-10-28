@@ -1,0 +1,1 @@
+import './globals.css';import {Header,Footer} from '../components/site';export const metadata={title:'RAKUPA SACCO',description:'RAKUPA SACCO Society Limited'};export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body><Header/><main>{children}</main><Footer/></body></html>}

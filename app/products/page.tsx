@@ -1,0 +1,1 @@
+import {PageIntro,ProductCards} from '../../components/sections';export default function Products(){return <><PageIntro title="Products & Services">Loan products designed to support members’ education, development, emergencies and agricultural activities.</PageIntro><section className="section"><div className="container"><ProductCards/></div></section></>}
